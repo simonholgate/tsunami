@@ -1,0 +1,10 @@
+start-stop-kalesto.sh
+kalesto/bin/read_kalesto.sh
+
+Scripts to read the Kalesto radar gauge and send data back via email.
+kalesto.sh is a start-stop script which sorts out logging of errors to a file
+(kalesto/data/errors.txt) and removes old data files on start-up.
+
+Usage:
+./start-stop-kalesto.sh start|stop|restart
+
